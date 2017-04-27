@@ -5,7 +5,7 @@ import pandas_datareader.data as web
 import pandas.util.testing as pdt
 
 
-class TestGetterSetter(unittest.TestCase):
+class TestDataCollector(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.data_collector_1 = DataCollectorFactory.create_data_collector('TSLA', None, None, source='yahoo')
